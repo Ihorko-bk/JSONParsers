@@ -1,4 +1,4 @@
-package name.ihorko.models;
+package name.ihorko.models.light;
 
 public class Window {
     public Window() {

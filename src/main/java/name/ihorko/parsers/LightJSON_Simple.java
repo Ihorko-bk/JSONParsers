@@ -1,19 +1,18 @@
 package name.ihorko.parsers;
 
-import name.ihorko.models.Font;
-import name.ihorko.models.Preference;
-import name.ihorko.models.Window;
+import name.ihorko.models.light.Font;
+import name.ihorko.models.light.Preference;
+import name.ihorko.models.light.Window;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
-import javax.xml.transform.stream.StreamResult;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class JSON_Simple {
+public class LightJSON_Simple {
 
     // creating and writing
     // -----------------------------------------------------------------------------------------------------------------

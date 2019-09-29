@@ -1,33 +1,31 @@
-package name.ihorko.models;
+package name.ihorko.models.light;
 
 public class Preference {
+
     private Font font;
+    private Window window;
+
 
     public Preference() {
     }
-
     public Preference(Font font, Window window) {
         this.font = font;
         this.window = window;
     }
 
-    public Font getFont() {
-        return font;
-    }
-
     public void setFont(Font font) {
         this.font = font;
     }
-
-    public Window getWindow() {
-        return window;
+    public Font getFont() {
+        return font;
     }
 
     public void setWindow(Window window) {
         this.window = window;
     }
-
-    private Window window;
+    public Window getWindow() {
+        return window;
+    }
 
     @Override
     public String toString() {
