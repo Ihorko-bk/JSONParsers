@@ -1,9 +1,7 @@
 package name.ihorko;
 
-import com.google.gson.Gson;
 import name.ihorko.models.hard.HardClass;
 import name.ihorko.models.hard.SomeClass;
-import name.ihorko.parsers.HardGSON;
 import name.ihorko.parsers.HardJackson;
 
 /*
@@ -34,13 +32,10 @@ public class HardMain {
         // -------------------------------------------------------------------------------------------------------------
         // Jackson {
 
-        // Jackson поводить себе аналогічно GSONy при серіалізації тому потребує ручної се- та десеріалізації
 
         String jsonJackson = HardJackson.createJSONString(someClass);
         System.out.println(jsonJackson);
 
-        SomeClass someClassJackson = HardJackson.creareSomeClassFromJSONString(jsonJackson);
-        System.out.println(someClassJackson);
 
         // } Jackson
         // -------------------------------------------------------------------------------------------------------------
